@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Array Manipulator</title>
+
+	   	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<!-- JQuery required for BootStrap to work -->
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<!-- Optional theme -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	
+	<script src="arrayCurrencies.js"></script>
+
+</head>
+
+<body>
+    
+    <div class="container">
+        
+		<h1>Introduction to Array Manipulations</h1>
+		
+		 <p>The purpose of this program is for you, the user, to enter a pre-determined
+        	string with mixed data (currencies and exchange rates), convert that to a mixed 
+        	array of data that can be searched to match the currency with its exchange rate
+			and then evaluate array elements.  To test this program, please copy and paste
+			the data from the below table into the input box.  Then click the related buttons
+			to manipulate the arrays and provide desired output.<br></p>
+
+		
+		<table class="table table-sm table-bordered">
+			<thead>
+			  <tr>
+				<th>Currency</th>
+				<th>Exchange Rate (to 1.00 US Dollar)</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr>
+				<th>Euro</th>
+				<td>0.942317</td>
+			  </tr>
+			  <tr>
+				<th>British Pound</th>
+				<td>0.804314</td>
+			  </tr>
+			  <tr>
+				<th>Kuwaiti Dinar</th>
+				<td>0.305190</td>
+			  </tr>
+			  <tr>
+				<th>Australian Dollar</th>
+				<td>1.332227</td>
+			  </tr>
+			  <tr>
+				<th>Canadian Dollar</th>
+				<td>1.332747</td>
+			  </tr>
+			  <tr>
+				<th>Singapore Dollar</th>
+				<td>1.403056</td>
+			  </tr>
+			  <tr>
+				<th>Swiss Franc</th>
+				<td>1.007823</td>
+			  </tr>
+			  <tr>
+				<th>Omani Rial</th>
+				<td>0.384899</td>
+			  </tr>
+			  <tr>
+				<th>Bahraini Dinar</th>
+				<td>0.377000</td>
+			  </tr>
+			</tbody>
+		</table>
+		
+		<div class="form-group">
+			<textarea class="form-control" rows="5" id="input_box"></textarea>
+		</div>
+		
+		<button class="btn btn-primary" type="button" id="high_exch">Highest Exch Rate</button>
+		<input class="btn btn-primary" type="button" id="low_exch" value="Lowest Exch Rate">
+		<input class="btn btn-primary" type="button" id="match" value="Match">
+		<br><br>
+    	<div class="form-group">
+			<textarea class="form-control" rows="5" id="output" disabled="disabled">Look here after you click a button</textarea>
+		</div>
+	</div>
+ 
+    
+</body>
+</html>

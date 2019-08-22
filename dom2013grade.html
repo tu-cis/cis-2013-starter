@@ -1,0 +1,45 @@
+
+<!DOCTYPE HTML>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>CIS 2013 Grade Prototype</title>
+	<link rel="stylesheet" type="text/css" href="2013grade.css" />
+	<script type="text/javascript" src="dom2013grade.js"></script>
+</head>
+
+<body>
+	<div id="content">
+		<h1>CIS2013 Final Grade Calculator (prototype)</h1>
+		<p>
+			Enter the values requested below and click "Calculate".
+		</p>
+
+		<label for="hw_pts">Total HW Pts:</label>
+		<input type="text" id="hw_pts" />
+		<br />
+
+		<label for="mid_pts">Midterm Pts:</label>
+		<input type="text" id="mid_pts" />
+		<br />
+
+		<label for="fin_pts">Final Pts:</label>
+		<input type="text" id="fin_pts" />
+		<br /><br />
+
+
+
+		<label for="grade_option">Enter 1 for audit, 2 for letter grade</label>
+		<input type="text" id="grade_option" />
+		<br /><br />
+
+		<label>&nbsp;</label>
+		<input type="button" id="calculate" value="Calculate" />
+		<br /><br />
+
+		<label for="final_grade">Final Grade:  </label>
+		<input type="text" id="final_grade" disabled="disabled" />
+		<br />
+
+	</div>
+</body>
+</html>

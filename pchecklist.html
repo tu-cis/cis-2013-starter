@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<title>Basic NIST Password Checker</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="pchecklist.js"></script>
+<body>
+
+<div class="w3-container w3-card-4 w3-light-grey">
+  <h2>Basic NIST Password Checker</h2>
+  <p>Use this program to check a password to see if it meets the new NIS password requirements requirements:</p>
+  <p>    - at least 8 characters long </p>
+  <p>    - does not belong a list of known bad passwords</p>
+  <h3>Note: this program just checks against ~ 500 bad passwords, not all known bad passwords...</h3>
+  
+  <p><label>Enter the password to be checked here:</label>
+  <input class="w3-input w3-border" name="first" id="password" type="text"></p>
+  
+  <p><button class="w3-button w3-black w3-round-xxlarge" id="check_password">Check the password!</button></p>
+  
+  <p><label>Is it a good password?</label>
+  <textarea class="w3-input w3-border" style="resize:none" id="output" disabled=true></textarea></p>
+</div>
+</body>
+</html> 

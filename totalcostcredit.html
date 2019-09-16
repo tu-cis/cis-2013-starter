@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+	<title>Total Loan Payment Calculation</title>
+
+	<!-- JQuery required for BootStrap to work -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+	  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	  crossorigin="anonymous"></script>
+	
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+   	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+	  integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css"
+		  integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+	<!-- link to your JS file -->
+ 	<script src="loan.js"></script>
+	
+</head>
+
+<body>
+	<section>
+		<div class="container">
+			<h1>Calculate Your Total Loan Payoff</h1><br>
+			<form class="form-inline" name="input_form">
+			  <div class="form-group">
+				<label class="sr-only" for="monthly payment">Monthly Payment</label>
+					<div class="input-group">
+					  <div class="input-group-addon">$</div>
+					  <input type="text" class="form-control" id="monthly_payment" placeholder="Monthly Payment">
+					</div>
+			  </div>
+						Enter your monthly car payment
+			</form>
+			<br>
+		</div>
+				
+		<div class="container">
+			<form class="form-inline" name="output_form1">
+			  <div class="form-group">
+				<label class="sr-only" for="balance">Starting Credit Card Balance</label>
+					<div class="input-group">
+					  <input type="text" class="form-control" id="loan_length" placeholder="Length of Loan">
+					  <div class="input-group-addon">Months</div>
+					</div>
+			  </div>
+				         Enter your planned monthly payment
+			</form>
+			<br><br>
+			<button type="button" id="Calc" class="btn btn-primary">Calculate Total Loan Payment</button>
+			<br><br><br>
+		</div>
+		
+		<div class="container">
+			<form class="form-inline" name="output_form1">
+			  <div class="form-group">
+				<label class="sr-only" for="total_paid">Total Loan Amount Paid</label>
+					<div class="input-group">
+					  <div class="input-group-addon">$</div>
+					  <input type="text" class="form-control" id="total_cost" placeholder="To be calculated..." disabled>
+					</div>
+			  </div>
+				         Total Loan Amount Paid
+			</form> <br><br><br>
+			<img class = "displayed" src="carsalesman.jpg" alt="sketchy"  height="300" width="400">
+		</div>
+	</section>
+</body>
+</html>

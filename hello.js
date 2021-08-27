@@ -7,7 +7,7 @@ var mainProgram = function ()
 {
     var stringFirstName = prompt("What is your first name?");
     if (!isNaN(stringFirstName)) {
-        alert("You did not enter a valid first name, so I will call you Pikachu.  Hello Pikachu!");
+        alert("You did not enter a valid first name, so I will call you Dwight.  Hello Dwight!");
     } else
     {
         alert("Hello "+ stringFirstName +"! It's great to meet you!");  

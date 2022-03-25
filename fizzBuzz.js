@@ -5,10 +5,33 @@ var $ = function (id)
 
 doStuffComputer = function()
 {
+	whileFunction();
+	forFunction();
+	doWhileFunction();
+}
+
+
+function whileFunction()
+{
 	var counter = 0;
-	var output = "";
+	var output = "";	
+}
+
+
+function forFunction()
+{
 	
-//insert code below    
+	
+}
+
+
+function doWhileFunction()
+{
+	
+	
+	
+}
+    
     
     
     

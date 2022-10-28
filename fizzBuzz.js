@@ -1,48 +1,24 @@
 var $ = function (id) 
 {
     return document.getElementById(id);
-}
+};
 
 doStuffComputer = function()
 {
 	whileFunction();
-	forFunction();
-	doWhileFunction();
-}
+	//forFunction();
+	//doWhileFunction();
+};
 
 
 function whileFunction()
 {
-	var counter = 0;
+	var counter = 1;
 	var output = "";	
-}
+};
 
 
-function forFunction()
-{
-	
-	
-}
 
-
-function doWhileFunction()
-{
-	
-	
-	
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-	alert(output);
-	
-}
 
 
 
